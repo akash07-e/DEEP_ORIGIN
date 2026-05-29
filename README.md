@@ -1,23 +1,35 @@
-🌊 DEEP ORIGIN
+# 🌊 DEEP ORIGIN
+
 AI-powered eDNA biodiversity analysis platform for marine ecosystems.
+
 DEEP ORIGIN helps identify taxonomy, assess biodiversity, and detect potential novel taxa from environmental DNA (eDNA) FASTA datasets using Machine Learning and sequence similarity pipelines.
 
-🚀 Live Demo
+---
+
+# 🚀 Live Demo
+
 https://deep-origin.vercel.app/
 
-📌 Problem Statement
+---
+
+# 📌 Problem Statement
+
 Pollution in deep-sea ecosystems, limited accessibility, and incomplete biological reference databases make biodiversity monitoring difficult.
 
-Traditional pipelines are computationally expensive and often:
+Traditional biodiversity analysis pipelines are computationally expensive and often:
 
-Misclassify species
-Miss unknown organisms
-Require heavy manual analysis
-DEEP ORIGIN solves this with an intelligent AI-based workflow for faster biodiversity assessment.
+* Misclassify species
+* Miss unknown organisms
+* Require heavy manual analysis
 
-🧠 Core Features
+DEEP ORIGIN solves this with an intelligent AI-based workflow for faster, scalable, and automated biodiversity assessment.
+
+---
+
+# 🧠 Core Features
+
 ✅ Upload FASTA sequence files
-✅ Automatic sequence preprocessing
+✅ Automatic DNA sequence preprocessing
 ✅ k-mer based DNA vectorization
 ✅ PCA embedding generation
 ✅ Taxonomic similarity classification
@@ -25,103 +37,171 @@ DEEP ORIGIN solves this with an intelligent AI-based workflow for faster biodive
 ✅ Confidence scoring
 ✅ Cluster analytics
 ✅ Summary statistics dashboard
-✅ Download-ready results
+✅ Download-ready analysis results
 
-⚙️ Tech Stack
-Frontend
-React.js
-TypeScript
-Vite
-Tailwind CSS
-Backend
-Flask
-Python
-Machine Learning
-NumPy
-Scikit-learn
-PCA
-Cosine Similarity
-Deployment
-Vercel (Frontend)
-Railway (Backend)
-🔬 How It Works
-Step 1: Upload FASTA File
-User uploads environmental DNA sequences.
+---
 
-Step 2: Preprocessing
-DNA reads are cleaned and converted into k-mer patterns.
+# ⚙️ Tech Stack
 
-Step 3: Feature Encoding
-Sequences are transformed into numerical vectors.
+## Frontend
 
-Step 4: Dimensionality Reduction
-PCA creates embeddings for faster search.
+* React.js
+* TypeScript
+* Vite
+* Tailwind CSS
 
-Step 5: Classification
-Compare with known reference embeddings.
+## Backend
 
-Step 6: Novelty Detection
-Unknown patterns are flagged as potential novel taxa.
+* Flask
+* Python
 
-Step 7: Results Dashboard
-Outputs include:
+## Machine Learning
 
-Taxa labels
-Confidence scores
-Novel taxa alerts
-Sequence lengths
-Counts summary
-📂 Project Structure
-DEEP_ORIGIN/ ├── Deep Origin Model/ Flask backend + ML pipeline
-├── ocean-dna-navigator/ React frontend
-├── models/ Saved artifacts
-└── uploads/ Uploaded FASTA files
+* NumPy
+* Scikit-learn
+* PCA
+* Cosine Similarity
 
-💻 Run Locally
-Clone Repo
-git clone https://github.com/AnshSinghRathoree/DEEP_ORIGIN.git
+## Deployment
+
+* Vercel (Frontend)
+* Railway (Backend)
+
+---
+
+# 🔬 How It Works
+
+## Step 1: Upload FASTA File
+
+Users upload environmental DNA (eDNA) FASTA datasets.
+
+## Step 2: Preprocessing
+
+DNA reads are cleaned and converted into k-mer sequence patterns.
+
+## Step 3: Feature Encoding
+
+Sequences are transformed into numerical vector embeddings.
+
+## Step 4: Dimensionality Reduction
+
+PCA generates compressed embeddings for faster similarity analysis.
+
+## Step 5: Taxonomic Classification
+
+Sequences are compared against known reference embeddings.
+
+## Step 6: Novel Taxa Detection
+
+Unknown sequence patterns are flagged as potential novel organisms.
+
+## Step 7: Results Dashboard
+
+Generated outputs include:
+
+* Taxa labels
+* Confidence scores
+* Novel taxa alerts
+* Sequence lengths
+* Cluster summaries
+* Biodiversity statistics
+
+---
+
+# 📂 Project Structure
+
+```bash
+DEEP_ORIGIN/
+├── Deep Origin Model/        # Flask backend + ML pipeline
+├── ocean-dna-navigator/      # React frontend
+├── models/                   # Saved ML artifacts
+└── uploads/                  # Uploaded FASTA files
+```
+
+---
+
+# 💻 Run Locally
+
+## Clone Repository
+
+```bash
+git clone https://github.com/your-username/DEEP_ORIGIN.git
 cd DEEP_ORIGIN
+```
 
-Backend Setup
+---
+
+## Backend Setup
+
+```bash
 cd "Deep Origin Model"
 pip install -r requirements.txt
 python app.py
+```
 
 Runs on:
-http://127.0.0.1:5000
 
-Frontend Setup
+```bash
+http://127.0.0.1:5000
+```
+
+---
+
+## Frontend Setup
+
+```bash
 cd ocean-dna-navigator
 npm install
 npm run dev
+```
 
 Runs on:
+
+```bash
 http://localhost:5173
+```
 
-🌍 Use Cases
-Marine biodiversity monitoring
-Pollution impact studies
-Deep-sea ecosystem research
-Novel species discovery
-Conservation policy support
-Scientific eDNA analysis
-📈 Future Scope
-Deep learning DNA transformer models
-Real-time ocean sensor integration
-Taxonomy tree visualization
-GIS biodiversity mapping
-PDF scientific reports
-Multi-user research dashboard
-👨‍💻 Team
-DEEP ABYSS
-Smart India Hackathon 2025
+---
 
-📜 License
+# 🌍 Use Cases
+
+* Marine biodiversity monitoring
+* Pollution impact assessment
+* Deep-sea ecosystem research
+* Novel species discovery
+* Conservation policy support
+* Scientific eDNA analysis
+
+---
+
+# 📈 Future Scope
+
+* Deep learning DNA transformer models
+* Real-time ocean sensor integration
+* Taxonomy tree visualization
+* GIS biodiversity mapping
+* Automated PDF scientific reports
+* Multi-user research dashboard
+
+---
+
+# 👨‍💻 Developer
+
+**Individual Project**
+Developed for AI-powered marine biodiversity analysis and eDNA research applications.
+
+---
+
+# 📜 License
+
 MIT License
 
-⭐ Support
+---
+
+# ⭐ Support
+
 If you like this project:
 
-⭐ Star the repo
+⭐ Star the repository
 🍴 Fork it
-🚀 Share it
+🚀 Share it with others
